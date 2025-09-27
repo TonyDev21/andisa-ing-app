@@ -4,7 +4,7 @@ import { ChevronRight, Award, Settings, Users } from 'lucide-react';
 const Hero: React.FC = () => {
   // Array de imágenes de construcción/metalmecánica
   const backgroundImages = [
-    'https://res.cloudinary.com/dxnx6awui/image/upload/v1758859940/test_m4lsyr.jpg',
+    'https://res.cloudinary.com/dxnx6awui/image/upload/v1759005539/pexels-sevenstormphotography-443376_zwtvkw.jpg',
     'https://res.cloudinary.com/dxnx6awui/image/upload/v1758868887/bg01_bse9ai.jpg', 
     'https://res.cloudinary.com/dxnx6awui/image/upload/v1758868899/bg02_ed3wwa.jpg'
   ];

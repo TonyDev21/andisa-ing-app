@@ -42,24 +42,15 @@ const About = () => {
           {/* Content */}
           <div className="space-y-6">
             <h3 className="text-3xl font-bold text-secondary">
-              Nuestra Historia de Éxito
+              ¿Quiénes <span className='text-3xl font-bold text-primary'>somos?</span>
             </h3>
             <div className="space-y-4 text-gray-600 leading-relaxed">
               <p>
-                Desde nuestros inicios, nos hemos distinguido por nuestra capacidad de adaptación 
-                y evolución constante. Nuestra experiencia de más de 5 años nos ha permitido 
-                perfeccionar nuestros procesos y expandir nuestros servicios.
+                Somos ANDISA INGENIERIA, CONSTRUCCIÓN Y MANTENIMIENTO SAC; una empresa 100% peruana, con más de 5 años de experiencia, adoptando los modernos conocimientos de la alta tecnología en metalmecánica y otros servicios que ofrecemos, siendo líderes en los sectores que operamos. Aplicamos las normas debidas para ejecutar servicios en base a ley.
               </p>
-              <p>
-                Somos líderes reconocidos en los sectores donde operamos, gracias a nuestro 
-                enfoque en la innovación tecnológica y la excelencia operativa. Cada proyecto 
-                es una oportunidad para demostrar nuestro compromiso con la calidad.
-              </p>
-              <p>
-                Nuestro equipo de profesionales especializados trabaja con las herramientas 
-                más avanzadas del mercado, garantizando resultados que superan las expectativas 
-                de nuestros clientes.
-              </p>
+              <div className='flex justify-center'>
+                <img src="https://res.cloudinary.com/dxnx6awui/image/upload/v1759007999/Logo_v2_ibcqkg.png" alt="andisa-ingenieria"/>
+              </div>
             </div>
           </div>
 
@@ -67,16 +58,14 @@ const About = () => {
           <div className="space-y-8">
             <div className="bg-gradient-to-br from-primary to-accent-700 p-8 rounded-2xl text-white">
               <h4 className="text-2xl font-bold mb-4">Misión</h4>
-              <p className="leading-relaxed">
-                Proporcionar soluciones metalmecánicas de vanguardia, integrando tecnología 
-                de punta con la experiencia humana para crear valor duradero para nuestros clientes.
+              <p className="leading-relaxed text-justify">
+                Estamos orientados a la fabricación, recuperación de piezas, repuestos y accesorios de óptima calidad aplicando los niveles de eficiencia de la reingeniería técnica y el aseguramiento de la calidad y enfocado en la mejora continua con el fin de satisfacer las necesidades de nuestros clientes además de rebasar sus expectativas.
               </p>
             </div>
             <div className="bg-secondary p-8 rounded-2xl text-white">
               <h4 className="text-2xl font-bold mb-4">Visión</h4>
-              <p className="leading-relaxed">
-                Ser la empresa líder en metalmecánica y servicios tecnológicos especializados, 
-                reconocida por nuestra innovación, calidad y compromiso con la excelencia.
+              <p className="leading-relaxed text-justify">
+                Ser una empresa líder en la industria metalmecánica, reconocida en el mercado nacional por su productividad, eficiencia e innovación, promoviendo estándares de calidad que mantengan e impulsen el desarrollo industrial, fortaleciendo la competitividad y brindando respaldo técnico confiable y soluciones sostenibles a nuestros clientes.
               </p>
             </div>
           </div>
